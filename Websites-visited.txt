@@ -1,0 +1,6 @@
+## Websites-visited.txt
+
+This is a list of the websites visited for this project.
+It includes websites that were used to get explanations of how to do something, sample code, actual specifications of what functions are available in a Python library and various fourms/fora where beginners and experts come together to share knowledge.
+
+
