@@ -5,6 +5,10 @@ It is written using NOTEPAD where the date and time is supplied by pressing key 
 
 It will also show what websites were visited and a small explanation of why or what waslearnt by visiting the websites.
 
+During this project, the source code file will be saved as a new file as time goes on.
+This will provide me with a regular 'fire break' in the event of me making a huge mistake and not being able to 'undo' the problem.
+The filenames will contain a date in ISO8601 format with a version letter next.
+This will provide maximum ability to backtrack if needed but also provide the date (and OpSys time) of the last edit date/time of each file.
 
 23:05 23/03/2018
 Took a copy of my previous program to read IRIS.CSV and print to screen in a regular(right_justified) output style.
