@@ -1,0 +1,278 @@
+This file is a project log of what activities/problems etc. were being done and when.
+
+
+It is written using NOTEPAD where the date and time is supplied by pressing key 'F5'
+
+It will also show what websites were visited and a small explanation of why or what waslearnt by visiting the websites.
+
+
+23:05 23/03/2018
+Took a copy of my previous program to read IRIS.CSV and print to screen in a regular(right_justified) output style.
+A handy base to start from.
+
+23:08 23/03/2018
+https://docs.python.org/3/library/statistics.html
+TO FIND OUT INFO ON THE STATS LIBRARY FOR PYTHON
+
+23:12 23/03/2018
+https://github.com/python/cpython/blob/3.6/Lib/statistics.py
+Source code of  STATS LIBRARY FOR PYTHON
+Was examined for the built in functions available.
+MIN and MAX are definitely not there.
+
+23:20 23/03/2018
+https://docs.scipy.org/doc/numpy-dev/reference/generated/numpy.percentile.html
+To find a function to provide a simple way of obtain MIN() and MAX() of an Array
+No success at this URL
+
+23:39 23/03/2018
+http://people.duke.edu/~ccc14/pcfb/numpympl/MatplotlibBarPlots.html
+To find examples of using MATPLOTLIB to generate graphs
+
+22:30 24/03/2018
+https://stackoverflow.com/questions/176011/python-list-vs-array-when-to-use?noredirect=1&lq=1
+To find out whether I should use an array of a list.
+Previous to this course,  List and Array were interchangable to me - not anymore.
+
+22:35 24/03/2018
+https://stackoverflow.com/questions/1514553/how-to-declare-an-array-in-python?noredirect=1&lq=1
+How to declare a list in PYTHON - but it turns out a list in PYTHON is an array in older languages.
+
+04:00 25/03/2018
+https://stackoverflow.com/questions/2294493/how-to-get-the-position-of-a-character-in-python
+HOW TO FIND A WANTED CHARACTER INSIDE A STRING
+
+21:56 25/03/2018
+https://stackoverflow.com/questions/16922214/reading-a-text-file-and-splitting-it-into-single-words-in-python
+BECAUSE THE PREVIOUS CSV READING ROUTINE WAS NOT SUITABLE FOR WHAT I WANT TO DO
+
+22:11 25/03/2018
+https://www.thegeekstuff.com/2013/08/python-array
+Having basic problems with arrays and I mean really basic.
+
+22:47 25/03/2018
+https://www.thegeekstuff.com/2013/08/python-array
+While reading this page - got a pointer to  numpy and scipy
+
+23:29 25/03/2018
+http://www.scipy-lectures.org/intro/numpy/numpy.html
+Finding out what numpy has to offer
+
+23:30 25/03/2018
+http://www.scipy-lectures.org/intro/numpy/numpy.html#creating-arrays
+Creating arrays and during this discovered numpy ability to output graphs - thinking ahead here
+
+23:59 25/03/2018
+https://docs.scipy.org/doc/numpy/reference/index.html
+How to add elements to a numpy array
+
+00:00 26/03/2018
+https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html
+How to manipulate numpy arrays
+
+00:01 26/03/2018
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.append.html#numpy.append
+How to add elements to an array
+
+01:10 26/03/2018
+Having trouble getting my head around something.
+I just dont get it.
+A language that is supposed to be an improvement on all other languages
+
+01:22 26/03/2018
+Giving up on  np.arrays  because  I'm getting   nan  for  np.array mean()       nan = not a number
+
+01:45 26/03/2018
+https://www.programiz.com/python-programming/list
+To find out what functions are available for the LIST data element
+
+02:29 26/03/2018
+https://stackoverflow.com/questions/3961007/passing-an-array-list-into-python
+Creating a function to compute average of a list/array and if this works then the other parameters for stats will be done
+
+02:40 26/03/2018
+In Quality Control and Statistcs- there is a parameter for a set of measurement called RANGE.
+Sadly you cant have a function called   def range(x,y,z):  because  range is a reserved word.
+
+03:14 26/03/2018
+https://stackoverflow.com/questions/15391748/square-roots-in-python
+Trying to calculate standard deviation old school.
+'sqrt'  doesnt seem to be the correct function of  square root.
+But according to this website it is.
+
+03:22 26/03/2018
+Discovered that   math.fsum() is apparently better than  sum() when adding-up  floating point numbers
+
+03:28 26/03/2018
+Created function to announce the various stats for a supplied array.
+This means that the same code doesn't have to be repeated - just supply the array as values and its name as a string
+
+03:33 26/03/2018
+https://www.learnpython.org/en/Multiple_Function_Arguments
+Having trouble passing two arguments to a function.
+Need to check if there's anything special about Python in comparison to C / C++
+It seems that you have to initialise the arguments of the function.
+
+03:47 26/03/2018
+Need to figure out how to ''roundoff'' some calculations that are coming back with lots of decimal places
+
+03:51 26/03/2018
+https://docs.python.org/3.6/library/functions.html?highlight=rounding#round
+Info on how to round off numbers
+
+03:57 26/03/2018
+Added  round(x,y) to the return values of several functions to clean up the output
+
+04:02 26/03/2018
+Removed hardwired rounding by numbers and added 'global' variable to set how many decimal places to round to. 
+This can be edited once to control every float_number.
+
+04:03 26/03/2018
+Text output version finished
+Output contains the following fields
+	Flower_part Title
+	Max
+	Min
+	Average
+	Range
+	Count
+	Standard_Deviation
+
+04:05 26/03/2018
+https://docs.python.org/3.6/library/functions.html?highlight=rounding#round
+Had a look at rounding again.
+
+04:08 26/03/2018
+Had idea to create optional file output of stats instead of just printing to screen.
+
+04:12 26/03/2018
+https://stackoverflow.com/questions/899103/writing-a-list-to-a-file-with-python
+How to read and write files
+
+04:20 26/03/2018
+Changed file output from  overwrite to append
+
+04:40 26/03/2018
+Added some presentation tweaks.
+
+04:41 26/03/2018
+Now - finally finished text based processing and output.
+Looks good.
+But I dont know if it would be better as a CSV file as well.
+or would a CSV and TXT file output be best or too much?
+
+04:41 26/03/2018
+Left to do= to figure out the graphical output.
+
+
+EXAMPLE OF SCREEN OUTPUT
+========================
+
+
+runfile('C:/DATA/STUDY/STUDY-GMIT/PYTHON-SOURCE/gmit--project--20180326n.py', wdir='C:/DATA/STUDY/STUDY-GMIT/PYTHON-SOURCE')
+# Program is running...
+# Opening:  iris.csv
+# End of file
+Line count: 152 150
+Sepal Width
+===================================================
+Maximum  : 4.4
+Minimum  : 2.0
+Average  : 3.054
+Range    : 2.4
+Count    : 150
+Std Dev  : 0.43359
+(Output sent to :'IRIS_report.txt' also.)
+
+Sepal Length
+============
+Maximum  : 7.9
+Minimum  : 4.3
+Average  : 5.84333
+Range    : 3.6
+Count    : 150
+Std Dev  : 0.82807
+(Output sent to :'IRIS_report.txt' also.)
+
+Petal Width
+===========
+Maximum  : 2.5
+Minimum  : 0.1
+Average  : 1.19867
+Range    : 2.4
+Count    : 150
+Std Dev  : 0.76316
+(Output sent to :'IRIS_report.txt' also.)
+
+Petal Length
+============
+Maximum  : 6.9
+Minimum  : 1.0
+Average  : 3.75867
+Range    : 5.9
+Count    : 150
+Std Dev  : 1.76442
+(Output sent to :'IRIS_report.txt' also.)
+
+# Program is finished.
+===================================================
+
+04:45 26/03/2018
+Enough for one night.
+
+
+
+20:26 26/03/2018
+Thinking about project and calculating standard deviation...
+If I put a binary 1/0 switch in the StdDev calculating function then I could switch between
+calculating a sample/population standard deviation.
+It allows the program to switch between the two by only changing one variable in the setup section of the program.
+
+21:04 27/03/2018
+Thinking:
+Should the report output be text or be another csv file?
+If a CSv file, then the various params for each aspect of the IRIS should be placed under the applicable column
+so that the output can be pasted in under the CSV values for the IRIS data.
+
+Monday night was a day off from programming but not thinking.
+Did enough on Sunday night to to get a basic project finished.
+
+Will resume with 
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+
+
+Then, as if that wasn't enough, later on
+Think if IRIS data needs a HEATMAP and other graphs that will be useful for other stuff.
+
+
+21:37 27/03/2018
+Edited the stddev(x[],'y') function to enable the ability to process an array that has a sample or the population in it.
+This removes the assumption to always consider the supplied array to be a sample. 
+The main program can now tell the function which to use.
+
+
+21:43 27/03/2018
+THINKING:
+Thought of replacing the fixed text in each print() with variables and setting the variables to suitable text at the start of the program.
+This again allows for the program to be setup easily and not have to go into the code to find every print() to change the text.
+The extensiono f this is then to supply a file that has all the output 'phrases' in whatever language to be read in before the 
+program produces any output to the screen or to a file.
+It is not a lot of work to do but is it needed ?
+Will it gain any 'points' ?
+
+21:46 27/03/2018
+Will add that to my list of things to do.
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
+8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
+ 
