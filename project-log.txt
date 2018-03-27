@@ -5,10 +5,17 @@ It is written using NOTEPAD where the date and time is supplied by pressing key 
 
 It will also show what websites were visited and a small explanation of why or what waslearnt by visiting the websites.
 
+
 During this project, the source code file will be saved as a new file as time goes on.
+
 This will provide me with a regular 'fire break' in the event of me making a huge mistake and not being able to 'undo' the problem.
+
 The filenames will contain a date in ISO8601 format with a version letter next.
-This will provide maximum ability to backtrack if needed but also provide the date (and OpSys time) of the last edit date/time of each file.
+This will provide maximum ability to backtrack if 
+needed but also provide the date (and OpSys time) of the last edit date/time of each file.
+
+
+
 
 23:05 23/03/2018
 Took a copy of my previous program to read IRIS.CSV and print to screen in a regular(right_justified) output style.
@@ -280,3 +287,22 @@ Will add that to my list of things to do.
 7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
 8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
  
+
+22:06 27/03/2018
+THINKING
+because I'm using APPEND for the TEXT output, It might be better to clean out any existing file contents.
+To do this I can either just delete any existing file but I will have to cater for an error of 'file not found' or 
+I can just have small extra function to OPEN FOR OVERWRITE but not write anything.
+This will have the effect of leaving an empty file to writing to (append) later when the program produces its report.
+
+22:08 27/03/2018
+List of things to do:
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
+8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
+9. create a function to open for overwrite and then close to clear out any existing report output contents.
