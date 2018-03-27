@@ -17,7 +17,7 @@ needed but also provide the date (and OpSys time) of the last edit date/time of 
 
 
 
-23:05 23/03/2018
+23:03 23/03/2018
 Took a copy of my previous program to read IRIS.CSV and print to screen in a regular(right_justified) output style.
 A handy base to start from.
 
