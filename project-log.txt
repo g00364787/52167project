@@ -306,3 +306,6 @@ List of things to do:
 7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
 8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
 9. create a function to open for overwrite and then close to clear out any existing report output contents.
+
+22:24 27/03/2018
+Thats enough thinking.
