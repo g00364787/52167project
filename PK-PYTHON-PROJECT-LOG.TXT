@@ -379,9 +379,9 @@ Filename for project now 'gmit--project--20180423c.py'
 02:29 23/04/2018
 Now using filename 'gmit--project--20180423D.py'
 Added Normal-Probability plot using the scatterplot upon some internally calculated array.
-the idea of the Normal-Probabilty graph is to plot the sorted values of the input array over an equal stepped value 
+The idea of the Normal-Probabilty graph is to plot the sorted values of the input array over an equal stepped value 
 that is calculated by x / N+1 where N is the number of elements in the input array.
-If the resulting graph looks like a S curve of close to it then it is effectively a bell-curve but if it is closer to 
+If the resulting graph looks like a S curve or close to it then it is effectively a bell-curve but if it is closer to 
 a horizontal line then it is closer to being a very narrow sample (Range is very small)
 
 03:16 23/04/2018
@@ -390,6 +390,14 @@ Must stop now.
 
 07:20 23/04/2018
 Now using filename 'gmit--project--20180423e.py'
+Re-arranged the NormProb to be a  Y-X graph so that a narrow-bell-curve would be shown by an almost narrow vertical line 
+rather than a near-narrow horizontal line.
+When I learned about these graphs, the Vertical S rather than a horizontal S was the way shown.
+A narrow-S curve implies a narrow bell-curve and a narrow bell-curve implies low variance.
+A near diagonal S-curve implies a wide bell curve therefore implies high variance.
 
+00:05 25/04/2018
+Idea to add a relationship indicator of  STD DEV -v- RANGE and if the data stands a chance of being normal then the ratio should be 1:6
+This would be a simple  X/Y where the result would be the  '6' part of the ratio.
 
 
