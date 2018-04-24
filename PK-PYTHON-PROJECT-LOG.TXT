@@ -333,6 +333,7 @@ Now, the sequence is
 	Minimum			// in Statistics is shown by	Min
 	Range			// in Statistics is shown by	R
 	Average			// in Statistics is shown by	X_bar  or  x_bar
+
 	Std Dev			// in Statistics is shown by	Sigma  or  s
 
 
@@ -386,3 +387,9 @@ a horizontal line then it is closer to being a very narrow sample (Range is very
 03:16 23/04/2018
 Put near final touches to program.
 Must stop now.
+
+07:20 23/04/2018
+Now using filename 'gmit--project--20180423e.py'
+
+
+
