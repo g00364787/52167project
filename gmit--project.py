@@ -2,30 +2,26 @@
 #
 # AUTHOR = PAUL KEARNEY  
 # STUDENT ID = G00364787
-# DATE = 2018-04-22
+# DATE = 2018-04-25
+# Written using:  SPYDER v3.6  part of Anaconda package.
+#
 # PROJECT
 # A script to...
 # Analyse the IRIS.CSV file known as FISCHER's IRIS data file.
 # 
 # all own work and with help from references 
-# - see supporting file all references visited and/or used
-#
-# import the library that can deal with CSV type data
-import csv
+# - see supporting files for references visited and/or used
 #
 # import the library that provides graphical output
 import matplotlib.pyplot as plt
 #
-# import the library that has the specialised functions for number handling
-import numpy as np
 #
 # import the math library to calculate 
 # square root, more accurate summing of floating point numbers and power_of
 import math
-
-import statistics
-
 #
+# import functionality for computing some statistics
+import statistics
 #
 # setup the required data for the progam to run
 filename = "iris.csv"
@@ -58,6 +54,9 @@ PetalLengthCm = []
 PetalWidthCm = []                            
 Species = []                            
 line_in = "++"
+#tempf1 = 0.1
+#tempf2 = 0.1
+
 
 # A routine to generate a single box plot to the screen
 # the input arry is in  ary1 and the name of the arry is in namOfArr
@@ -97,8 +96,8 @@ def manyboxplot(ary1 = [], namOfArr1 = "", ary2 = [], namOfArr2 = "",
 # for the X-axis index to match the contents of the input array, a temp arry
 # called  tmpx is made to be the same length as the input array 'ary1'    
 def scatplot(ary1 = [], namOfArr = ""):
-    print ("#")
-	print ("# Scatter plot of "+namOfArr+" data.")
+    print("#")
+    print ("# Scatter plot of "+ namOfArr +" data.")
     tmpx = []
     # generate numbers for the X axis that is the same size as the incoming array
     for x in range(len(ary1)):
@@ -108,7 +107,6 @@ def scatplot(ary1 = [], namOfArr = ""):
     plt.xlabel('Index')
     plt.ylabel('CM')
     plt.show()
-    print("#")
     return(0)
 
 # routine to generate a normal-probability curve
@@ -117,7 +115,7 @@ def scatplot(ary1 = [], namOfArr = ""):
 # Generates Scatter plot where normal data will appear S-shaped
 def norm_prob(ary1 = [], namOfArr = ''):
     print ("#")
-	print ("# Normal Probability Plot of "+namOfArr+" data.")
+    print ("# Normal Probability Plot of "+namOfArr+" data.")
     ary1.sort()
     tmpx = []
     maxx = len(ary1)+1
@@ -175,19 +173,26 @@ def mdian(ary = []):
 
 # a routine to display the statistics of a supplied array
 def statsof(ary = [], namOfArr = "", filnam = "",sampORpop = ''):
-    print(" ")
-	print(namOfArr)
+    tempf1 = 0.1
+    tempf2 = 0.1
+    tempsr = 0.1
+    strgsr = ""
+    print("#")
+    print(namOfArr)
     print(dashes[0:len(namOfArr)])
     print("Samples . . : "+ str(numberof(ary)))
     print("Maximum . . : "+ str(max(ary)))
     print("Minimum . . : "+ str(min(ary)))
     print("Range   . . : "+ str(maxtomin(ary)))	
     print("Average . . : "+ str(avg(ary)))
-    #print("Median  . . : "+ str(meedian(ary))
-    print("Std Dev . . : "+ str(stddev(ary,sampORpop)))
-	print("Stddev/Range: "+ str( stddev(ary,sampORpop)  / maxtomin(ary) )
+    print("Std Dev . . : "+ str(tempsr) )
+    tempf1 = stddev(ary,sampORpop)
+    tempf2 = maxtomin(ary)
+    tempsr = int(1000*(tempf2 / tempf1))/1000
+    strgsr = str(tempsr).rjust(5," ")
+    print("Range:Stddev: "+strgsr+":1")
     if (len(filnam)>0 ):
-        f = open(filnam,"a")
+        f = open(filnam,"a")   
         f.write(namOfArr+"\n")   
         f.write(dashes[0:len(namOfArr)]+"\n")
         f.write("Samples . . : "+ str(numberof(ary))+"\n")  
@@ -195,13 +200,10 @@ def statsof(ary = [], namOfArr = "", filnam = "",sampORpop = ''):
         f.write("Minimum . . : "+ str(min(ary))+"\n")
         f.write("Range   . . : "+ str(maxtomin(ary))+"\n")
         f.write("Average . . : "+ str(avg(ary))+"\n")
-        #f.write("Median  . . : "+ str(meedian(ary))+"\n")
         f.write("Std Dev . . : "+ str(stddev(ary,sampORpop))+"\n")
-		f.write("Stddev/Range: "+ str( stddev(ary,sampORpop)  / maxtomin(ary) )
-        f.write("\n")
+        f.write("Range:Stddev: "+strgsr+":1")
         f.close()
 #        print("# (Output sent to :'"+filnam+"' also.)")
-    print("")
     return 0
 
 # a routine to create an empty file or to overwrite an existing file 
