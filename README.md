@@ -18,31 +18,31 @@ The files in this directory are
 :-------------------------------------------------------:----------------------------------------:
 |README.md                                              |This file                               |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project-research-into-fishers-dataset.doc        |The 'final version' of the analysis     |
+|gmit-project-research-into-fishers-dataset.doc         |The 'final version' of the analysis     |
 |                                                       |of the project                          |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project.py                                       |The 'final version' of the project code |
+|gmit-project.py                                        |The 'final version' of the project code |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project-IRIS_report.txt                          |Small output file from the program with |
+|gmit-project-IRIS_report.txt                           |Small output file from the program with |
 |                                                       |the statistics of the IRIS dataset      |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180425a.py                            |A version of the project using the      |
+|gmit-project--20180425a.py                             |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180425b.py                            |A version of the project using the      |
+|gmit-project--20180425b.py                             |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180427a.py                            |A version of the project using the      |
+|gmit-project--20180427a.py                             |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180427b.py                            |A version of the project using the      |
+|gmit-project--20180427b.py                             |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
 |iris.csv                                               |The CSV file of IRIS data               |
 |-------------------------------------------------------|----------------------------------------|
-|python--project-spec-2018.pdf                          |The project spec                        |
+|python-project-spec-2018.pdf                           |The project spec                        |
 |-------------------------------------------------------|----------------------------------------|
-|python--project-log.txt                                |A log file of activities during the     |
+|python-project-log.txt                                 |A log file of activities during the     |
 |                                                       |development of the project              |
 |-------------------------------------------------------|----------------------------------------|
 |reference-00--THE USE OF MULTIPLE MEASUREMENTS IN      |The paper for Fisher about the IRIS data|
