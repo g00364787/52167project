@@ -3,7 +3,8 @@
 
 This repository contains the files for the Programming and Scripting project.
 
-The program in this directory was written using SPYDER 3.6 from the Anaconda package.
+The program in this directory was written using SPYDER 3.2.4 from the Anaconda package.
+PYTHON 3.6.3  64bits, Qt5.6.2, PyQt5 5.6 on Windows
 
 Please see the file 'project-log.txt' for a description of the activites during this project.
 
