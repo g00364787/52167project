@@ -15,7 +15,7 @@ It will also contain several graphs showing the proprties of the dataset.
 
 The files in this directory are
 :-------------------------------------------------------:----------------------------------------:
-|README.md                                         			|This file 								               |
+|README.md                                              |This file 								               |
 |-------------------------------------------------------|----------------------------------------|
 |PYTHON-project-spec-2018.pdf 			                		|The project spec					            	 |
 |-------------------------------------------------------|----------------------------------------|
