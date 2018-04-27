@@ -8,8 +8,8 @@ PYTHON 3.6.3  64bits, Qt5.6.2, PyQt5 5.6 on Windows
 
 Please see the file 'project-log.txt' for a description of the activites during this project.
 
-To run the project :   run the PYTHON source code file  gmit-project.py
-Please ensure that the CSv file 'iris.csv' is in the same directory as the PYTHON source file.
+To run the project :   run the PYTHON source code file  gmit--project.py
+Please ensure that the CSV file 'iris.csv' is in the same directory as the PYTHON source file.
 
 After running the console will contain output text containing the secriptive stats of the IRIS.CSV dataset.
 It will also contain several graphs showing the proprties of the dataset.
