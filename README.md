@@ -26,8 +26,8 @@ The files in this directory are
 |-------------------------------------------------------|----------------------------------------|
 |iris.csv                                               |The CSV file of IRIS data               |
 |-------------------------------------------------------|----------------------------------------|
-|IRIS_report.txt                                        |Small output file from the program with | 
-|                                                       |the statistics of the IRIS dataset	     |
+|IRIS_report.txt                                        |Small output file from the program with |
+|                                                       |the statistics of the IRIS dataset      |
 |-------------------------------------------------------|----------------------------------------|
 |PYTHON-PROJECT-LOG.TXT                                 |A log file of activities during the     |
 |                                                       |development of the project              |
