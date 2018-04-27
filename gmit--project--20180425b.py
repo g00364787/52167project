@@ -2,8 +2,8 @@
 #
 # AUTHOR = PAUL KEARNEY  
 # STUDENT ID = G00364787
-# DATE = 2018-04-25
-# Written using:  SPYDER v3.6  part of Anaconda package.
+# DATE = 2018-04-27
+# Written using:  SPYDER v3.2.4  part of Anaconda package.
 #
 # PROJECT
 # A script to...
