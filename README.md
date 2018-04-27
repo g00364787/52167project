@@ -17,29 +17,29 @@ The files in this directory are
 :-------------------------------------------------------:----------------------------------------:
 |README.md                                              |This file 								               |
 |-------------------------------------------------------|----------------------------------------|
-|PYTHON-project-spec-2018.pdf 			                		|The project spec					            	 |
+|PYTHON-project-spec-2018.pdf                           |The project spec					            	 |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project.py 				                  						|The 'final version' of the project	     |
+|gmit--project.py                                       |The 'final version' of the project	     |
 |-------------------------------------------------------|----------------------------------------|
-|gmit-project-research-into-fishers-dataset.doc   			|The 'final version' of the analysis     |
+|gmit-project-research-into-fishers-dataset.doc         |The 'final version' of the analysis     |
 |                                                       |of the project						               |
 |-------------------------------------------------------|----------------------------------------|
 |iris.csv                                               |The CSV file of IRIS data               |
 |-------------------------------------------------------|----------------------------------------|
-|IRIS_report.txt 		                    								|Small output file from the program with | 
+|IRIS_report.txt                                        |Small output file from the program with | 
 |                                                       |the statistics of the IRIS dataset	     |
 |-------------------------------------------------------|----------------------------------------|
-|PYTHON-PROJECT-LOG.TXT 		                            |A log file of activities during the 	   |
+|PYTHON-PROJECT-LOG.TXT                                 |A log file of activities during the 	   |
 |                                                       |development of the project				       |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180425a.py 						              	|A version of the project using the      |
+|gmit--project--20180425a.py                            |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project--20180425b.py	              						|A version of the project using the      |
+|gmit--project--20180425b.py                            |A version of the project using the      |
 |                                                       |ISO8601 date format for version tracking|
 |-------------------------------------------------------|----------------------------------------|
-|reference-00--THE USE OF MULTIPLE MEASUREMENTS IN 	  	|The paper for Fisher about the IRIS data|
-|TAXONOMIC PROBLEMS - j.1469-1809.1936.tb02137.pdf   		|                                    		 |
+|reference-00--THE USE OF MULTIPLE MEASUREMENTS IN      |The paper for Fisher about the IRIS data|
+|TAXONOMIC PROBLEMS - j.1469-1809.1936.tb02137.pdf      |                                    		 |
 |-------------------------------------------------------|----------------------------------------|
 |reference-01--PAGE-4--matrix.jpg 	          					|A matrix to calculate the factors that  |
 |                                                       |control the length & width		    	     |
