@@ -397,7 +397,8 @@ A narrow-S curve implies a narrow bell-curve and a narrow bell-curve implies low
 A near diagonal S-curve implies a wide bell curve therefore implies high variance.
 
 00:05 25/04/2018
-Idea to add a relationship indicator of  STD DEV -v- RANGE and if the data stands a chance of being normal then the ratio should be 1:6
+Idea to add a relationship indicator of  STD DEV -v- RANGE and if the data stands a chance of being normal 
+then the ratio should be 1:6
 This would be a simple  X/Y where the result would be the  '6' part of the ratio.
 
 
@@ -414,5 +415,6 @@ Some minor tidying up.
 Close-out time approaching - must tidy up and get ready to leave a submittable version
 
 22:42 27/04/2018
+Now using filename 'gmit--project--20180427b.py'
 Some spacing and adding of a few  "\n" to add spacing in the IRIS-report.txt output file.
 
