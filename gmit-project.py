@@ -7,7 +7,7 @@
 #
 # PROJECT
 # A script to...
-# Analyse the IRIS.CSV file known as FISCHER's IRIS data file.
+# Analyse the IRIS.CSV file known as FISHER's IRIS data file.
 # 
 # all own work and with help from references 
 # - see supporting files for references visited and/or used
