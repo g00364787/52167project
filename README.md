@@ -19,7 +19,7 @@ The files in this directory are
 |-------------------------------------------------------|----------------------------------------|
 |PYTHON-project-spec-2018.pdf                           |The project spec                        |
 |-------------------------------------------------------|----------------------------------------|
-|gmit--project.py                                       |The 'final version' of the project      |
+|gmit--project.py                                       |The 'final version' of the project code |
 |-------------------------------------------------------|----------------------------------------|
 |gmit-project-research-into-fishers-dataset.doc         |The 'final version' of the analysis     |
 |                                                       |of the project                          |
