@@ -1,0 +1,40 @@
+
+Sepal Length (cm)
+=================
+Samples . . : 150
+Maximum . . : 7.9
+Minimum . . : 4.3
+Range   . . : 3.6
+Average . . : 5.84333
+Std Dev . . : 0.8253
+Range:Stddev: 4.362:1
+
+Sepal Width (cm)
+================
+Samples . . : 150
+Maximum . . : 4.4
+Minimum . . : 2.0
+Range   . . : 2.4
+Average . . : 3.054
+Std Dev . . : 0.43215
+Range:Stddev: 5.553:1
+
+Petal Length (cm)
+=================
+Samples . . : 150
+Maximum . . : 6.9
+Minimum . . : 1.0
+Range   . . : 5.9
+Average . . : 3.75867
+Std Dev . . : 1.75853
+Range:Stddev: 3.355:1
+
+Petal Width (cm)
+================
+Samples . . : 150
+Maximum . . : 2.5
+Minimum . . : 0.1
+Range   . . : 2.4
+Average . . : 1.19867
+Std Dev . . : 0.76061
+Range:Stddev: 3.155:1
