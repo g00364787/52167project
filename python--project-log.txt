@@ -1,0 +1,418 @@
+This file is a project log of what activities/problems etc. were being done and when.
+
+
+It is written using NOTEPAD where the date and time is supplied by pressing key 'F5'
+
+It will also show what websites were visited and a small explanation of why or what waslearnt by visiting the websites.
+
+
+During this project, the source code file will be saved as a new file as time goes on.
+
+This will provide me with a regular 'fire break' in the event of me making a huge mistake and not being able to 'undo' the problem.
+
+The filenames will contain a date in ISO8601 format with a version letter next.
+This will provide maximum ability to backtrack if 
+needed but also provide the date (and OpSys time) of the last edit date/time of each file.
+
+
+
+
+23:03 23/03/2018
+Took a copy of my previous program to read IRIS.CSV and print to screen in a regular(right_justified) output style.
+A handy base to start from.
+
+23:08 23/03/2018
+https://docs.python.org/3/library/statistics.html
+TO FIND OUT INFO ON THE STATS LIBRARY FOR PYTHON
+
+23:12 23/03/2018
+https://github.com/python/cpython/blob/3.6/Lib/statistics.py
+Source code of  STATS LIBRARY FOR PYTHON
+Was examined for the built in functions available.
+MIN and MAX are definitely not there.
+
+23:20 23/03/2018
+https://docs.scipy.org/doc/numpy-dev/reference/generated/numpy.percentile.html
+To find a function to provide a simple way of obtain MIN() and MAX() of an Array
+No success at this URL
+
+23:39 23/03/2018
+http://people.duke.edu/~ccc14/pcfb/numpympl/MatplotlibBarPlots.html
+To find examples of using MATPLOTLIB to generate graphs
+
+22:30 24/03/2018
+https://stackoverflow.com/questions/176011/python-list-vs-array-when-to-use?noredirect=1&lq=1
+To find out whether I should use an array of a list.
+Previous to this course,  List and Array were interchangable to me - not anymore.
+
+22:35 24/03/2018
+https://stackoverflow.com/questions/1514553/how-to-declare-an-array-in-python?noredirect=1&lq=1
+How to declare a list in PYTHON - but it turns out a list in PYTHON is an array in older languages.
+
+04:00 25/03/2018
+https://stackoverflow.com/questions/2294493/how-to-get-the-position-of-a-character-in-python
+HOW TO FIND A WANTED CHARACTER INSIDE A STRING
+
+21:56 25/03/2018
+https://stackoverflow.com/questions/16922214/reading-a-text-file-and-splitting-it-into-single-words-in-python
+BECAUSE THE PREVIOUS CSV READING ROUTINE WAS NOT SUITABLE FOR WHAT I WANT TO DO
+
+22:11 25/03/2018
+https://www.thegeekstuff.com/2013/08/python-array
+Having basic problems with arrays and I mean really basic.
+
+22:47 25/03/2018
+https://www.thegeekstuff.com/2013/08/python-array
+While reading this page - got a pointer to  numpy and scipy
+
+23:29 25/03/2018
+http://www.scipy-lectures.org/intro/numpy/numpy.html
+Finding out what numpy has to offer
+
+23:30 25/03/2018
+http://www.scipy-lectures.org/intro/numpy/numpy.html#creating-arrays
+Creating arrays and during this discovered numpy ability to output graphs - thinking ahead here
+
+23:59 25/03/2018
+https://docs.scipy.org/doc/numpy/reference/index.html
+How to add elements to a numpy array
+
+00:00 26/03/2018
+https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html
+How to manipulate numpy arrays
+
+00:01 26/03/2018
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.append.html#numpy.append
+How to add elements to an array
+
+01:10 26/03/2018
+Having trouble getting my head around something.
+I just dont get it.
+A language that is supposed to be an improvement on all other languages
+
+01:22 26/03/2018
+Giving up on  np.arrays  because  I'm getting   nan  for  np.array mean()       nan = not a number
+
+01:45 26/03/2018
+https://www.programiz.com/python-programming/list
+To find out what functions are available for the LIST data element
+
+02:29 26/03/2018
+https://stackoverflow.com/questions/3961007/passing-an-array-list-into-python
+Creating a function to compute average of a list/array and if this works then the other parameters for stats will be done
+
+02:40 26/03/2018
+In Quality Control and Statistcs- there is a parameter for a set of measurement called RANGE.
+Sadly you cant have a function called   def range(x,y,z):  because  range is a reserved word.
+
+03:14 26/03/2018
+https://stackoverflow.com/questions/15391748/square-roots-in-python
+Trying to calculate standard deviation old school.
+'sqrt'  doesnt seem to be the correct function of  square root.
+But according to this website it is.
+
+03:22 26/03/2018
+Discovered that   math.fsum() is apparently better than  sum() when adding-up  floating point numbers
+
+03:28 26/03/2018
+Created function to announce the various stats for a supplied array.
+This means that the same code doesn't have to be repeated - just supply the array as values and its name as a string
+
+03:33 26/03/2018
+https://www.learnpython.org/en/Multiple_Function_Arguments
+Having trouble passing two arguments to a function.
+Need to check if there's anything special about Python in comparison to C / C++
+It seems that you have to initialise the arguments of the function.
+
+03:47 26/03/2018
+Need to figure out how to ''roundoff'' some calculations that are coming back with lots of decimal places
+
+03:51 26/03/2018
+https://docs.python.org/3.6/library/functions.html?highlight=rounding#round
+Info on how to round off numbers
+
+03:57 26/03/2018
+Added  round(x,y) to the return values of several functions to clean up the output
+
+04:02 26/03/2018
+Removed hardwired rounding by numbers and added 'global' variable to set how many decimal places to round to. 
+This can be edited once to control every float_number.
+
+04:03 26/03/2018
+Text output version finished
+Output contains the following fields
+	Flower_part Title
+	Max
+	Min
+	Average
+	Range
+	Count
+	Standard_Deviation
+
+04:05 26/03/2018
+https://docs.python.org/3.6/library/functions.html?highlight=rounding#round
+Had a look at rounding again.
+
+04:08 26/03/2018
+Had idea to create optional file output of stats instead of just printing to screen.
+
+04:12 26/03/2018
+https://stackoverflow.com/questions/899103/writing-a-list-to-a-file-with-python
+How to read and write files
+
+04:20 26/03/2018
+Changed file output from  overwrite to append
+
+04:40 26/03/2018
+Added some presentation tweaks.
+
+04:41 26/03/2018
+Now - finally finished text based processing and output.
+Looks good.
+But I dont know if it would be better as a CSV file as well.
+or would a CSV and TXT file output be best or too much?
+
+04:41 26/03/2018
+Left to do= to figure out the graphical output.
+
+
+EXAMPLE OF SCREEN OUTPUT
+========================
+
+
+runfile('C:/DATA/STUDY/STUDY-GMIT/PYTHON-SOURCE/gmit--project--20180326n.py', wdir='C:/DATA/STUDY/STUDY-GMIT/PYTHON-SOURCE')
+# Program is running...
+# Opening:  iris.csv
+# End of file
+Line count: 152 150
+Sepal Width
+===================================================
+Maximum  : 4.4
+Minimum  : 2.0
+Average  : 3.054
+Range    : 2.4
+Count    : 150
+Std Dev  : 0.43359
+(Output sent to :'IRIS_report.txt' also.)
+
+Sepal Length
+============
+Maximum  : 7.9
+Minimum  : 4.3
+Average  : 5.84333
+Range    : 3.6
+Count    : 150
+Std Dev  : 0.82807
+(Output sent to :'IRIS_report.txt' also.)
+
+Petal Width
+===========
+Maximum  : 2.5
+Minimum  : 0.1
+Average  : 1.19867
+Range    : 2.4
+Count    : 150
+Std Dev  : 0.76316
+(Output sent to :'IRIS_report.txt' also.)
+
+Petal Length
+============
+Maximum  : 6.9
+Minimum  : 1.0
+Average  : 3.75867
+Range    : 5.9
+Count    : 150
+Std Dev  : 1.76442
+(Output sent to :'IRIS_report.txt' also.)
+
+# Program is finished.
+===================================================
+
+04:45 26/03/2018
+Enough for one night.
+
+
+
+20:26 26/03/2018
+Thinking about project and calculating standard deviation...
+If I put a binary 1/0 switch in the StdDev calculating function then I could switch between
+calculating a sample/population standard deviation.
+It allows the program to switch between the two by only changing one variable in the setup section of the program.
+
+21:04 27/03/2018
+Thinking:
+Should the report output be text or be another csv file?
+If a CSv file, then the various params for each aspect of the IRIS should be placed under the applicable column
+so that the output can be pasted in under the CSV values for the IRIS data.
+
+Monday night was a day off from programming but not thinking.
+Did enough on Sunday night to to get a basic project finished.
+
+Will resume with 
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+
+
+Then, as if that wasn't enough, later on
+Think if IRIS data needs a HEATMAP and other graphs that will be useful for other stuff.
+
+
+21:37 27/03/2018
+Edited the stddev(x[],'y') function to enable the ability to process an array that has a sample or the population in it.
+This removes the assumption to always consider the supplied array to be a sample. 
+The main program can now tell the function which to use.
+
+
+21:43 27/03/2018
+THINKING:
+Thought of replacing the fixed text in each print() with variables and setting the variables to suitable text at the start of the program.
+This again allows for the program to be setup easily and not have to go into the code to find every print() to change the text.
+The extensiono f this is then to supply a file that has all the output 'phrases' in whatever language to be read in before the 
+program produces any output to the screen or to a file.
+It is not a lot of work to do but is it needed ?
+Will it gain any 'points' ?
+
+21:46 27/03/2018
+Will add that to my list of things to do.
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
+8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
+ 
+
+22:06 27/03/2018
+THINKING
+Because I'm using APPEND for the TEXT output, It might be better to clean out any existing file contents.
+To do this I can either just delete any existing file but I will have to cater for an error of 'file not found' or 
+I can just have small extra function to OPEN FOR OVERWRITE but not write anything.
+This will have the effect of leaving an empty file to writing to (append) later when the program produces its report.
+
+22:08 27/03/2018
+List of things to do:
+1. check the average and standard deviation calculations 
+2. possibly revisit getting the standard deviation by a built in function instead of my own.
+3. re-arranging the TXT output
+4. Deciding if it needs a CSV output as well
+5. creating the basic X-Y graphs.
+6. And if they work then bar charts and a scatter graph or two would be nice.
+7. create variables for each output (screen or file) string and set the values of these variables at the start of the program.
+8. consider creating an INIT file with these phrases/strings in it and read this file in to overwrte the default values.
+9. create a function to open for overwrite and then close to clear out any existing report output contents.
+
+22:24 27/03/2018
+Thats enough thinking.
+
+22:28 27/03/2018
+Sadly couldn't resist/stop.
+Created report file overwrite routine to clean the report file back to an empty file.
+Added some comment lines to screen to inform user of programs activity.
+Changes the word "Count" in the report output (to file+screen) to the word "Samples"
+Latest filename is now 'gmit--project--20180327q.py'
+
+
+22:37 27/03/2018
+Latest filename is now 'gmit--project--20180327r.py'
+Reworked the sample_R_population variable.
+And reworked the calling of the STATSOF() to include 3 arguments to enable the switching of  SAMPLE or POPULATION calculations.
+
+
+23:59 27/03/2018
+Filename now = gmit--project--20180327s.py
+Adjusted the layout of the report output so that the statistics are in a more logical sequence.
+Now, the sequence is 
+	Samples			// in Statistics is shown by	n
+	Maximum			// in Statistics is shown by	Max
+	Minimum			// in Statistics is shown by	Min
+	Range			// in Statistics is shown by	R
+	Average			// in Statistics is shown by	X_bar  or  x_bar
+
+	Std Dev			// in Statistics is shown by	Sigma  or  s
+
+
+00:02 28/03/2018
+Changed the return value from function  def cleanreportfile(): to return 0
+
+
+23:23 22/04/2018
+Returned to the project after a lot of time spent in sidetracked by a sad event last August and lots of work in the job that required weekend working.
+
+23:43 22/04/2018
+Found out how to do a simple boxplot at https://stackoverflow.com/questions/32493415/how-to-make-a-box-and-whisker-graph-with-python
+Simpler than I thought it would be - thanks to the use of pre-define libraries and functions.
+
+00:06 23/04/2018
+https://matplotlib.org/examples/pylab_examples/boxplot_demo2.html
+To find out how to put text on the axes of the boxplots
+
+00:24 23/04/2018
+Trying to figure out how to adjust the title of the boxplot.
+https://stackoverflow.com/questions/13112103/using-figtext-in-python
+
+00:58 23/04/2018
+learning how to use MATPLOTLIB SCATTER PLOT function
+https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.scatter.html
+
+01:24 23/04/2018
+Filename in use now is 'gmit--project--20180423b.py'
+Scatter plots done.
+
+01:34 23/04/2018
+Back to Scatterplots - need to put titles on both axes
+https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib#12444777
+
+01:41 23/04/2018
+I want to present a multiple boxplot of the 4 measurments of the IRIS in the one graph.
+https://stackoverflow.com/questions/24437825/multiple-box-plots-in-one-plot-using-matplotlib-with-subgroups
+
+01:58 23/04/2018
+Filename for project now 'gmit--project--20180423c.py'
+
+
+02:29 23/04/2018
+Now using filename 'gmit--project--20180423D.py'
+Added Normal-Probability plot using the scatterplot upon some internally calculated array.
+The idea of the Normal-Probabilty graph is to plot the sorted values of the input array over an equal stepped value 
+that is calculated by x / N+1 where N is the number of elements in the input array.
+If the resulting graph looks like a S curve or close to it then it is effectively a bell-curve but if it is closer to 
+a horizontal line then it is closer to being a very narrow sample (Range is very small)
+
+03:16 23/04/2018
+Put near final touches to program.
+Must stop now.
+
+07:20 23/04/2018
+Now using filename 'gmit--project--20180423e.py'
+Re-arranged the NormProb to be a  Y-X graph so that a narrow-bell-curve would be shown by an almost narrow vertical line 
+rather than a near-narrow horizontal line.
+When I learned about these graphs, the Vertical S rather than a horizontal S was the way shown.
+A narrow-S curve implies a narrow bell-curve and a narrow bell-curve implies low variance.
+A near diagonal S-curve implies a wide bell curve therefore implies high variance.
+
+00:05 25/04/2018
+Idea to add a relationship indicator of  STD DEV -v- RANGE and if the data stands a chance of being normal then the ratio should be 1:6
+This would be a simple  X/Y where the result would be the  '6' part of the ratio.
+
+
+23:47 25/04/2018
+Added the calculations and display lines in to display the ratio of  RANGE:StdDev
+Few cosmetic adjustments to get the output a bit more consistent.
+
+23:57 25/04/2018
+Now using filename 'gmit--project--20180425b.py'
+
+22:14 27/04/2018
+Now using filename 'gmit--project--20180427a.py'
+Some minor tidying up.
+Close-out time approaching - must tidy up and get ready to leave a submittable version
+
+22:42 27/04/2018
+Some spacing and adding of a few  "\n" to add spacing in the IRIS-report.txt output file.
+
